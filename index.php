@@ -9,7 +9,8 @@ require BASE_DIR . '/includes/header.php';
 $routes = [
     '/' => 'home',
     '/login' => 'auth.login',
-    '/dashboard' => 'user.dashboard'
+    '/dashboard' => 'user.dashboard',
+    '/logout' => 'user.logout'
 ];
 $router = new Router($routes);
 $router->handle($_SERVER['REQUEST_URI']);
