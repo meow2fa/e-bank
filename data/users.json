@@ -1,6 +1,8 @@
 [
     {
-        "username": "mori",
-        "password": ""
+        "username": "default",
+        "password": "$2y$10$.9hTbxjn4zF8qbS/iIjybe45TY91nakAJOwi2IPEiHYOHnbn6E3US",
+        "role": "ADMIN",
+        "money": 12000.56
     }
 ]

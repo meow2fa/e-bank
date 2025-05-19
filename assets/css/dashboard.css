@@ -1,0 +1,66 @@
+/* Dashboard Container */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  color: #e0e0e0;
+}
+
+/* Header */
+.dashboard-container header h1 {
+  font-size: 1.8rem;
+  color: #a0a0ff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Kontostand-Anzeige */
+.account-balance {
+  background: #1e1e2f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.account-balance p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ccccff;
+}
+
+.account-balance h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5aff95;
+}
+
+/* Aktionen / Buttons */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.actions button {
+  background: #5a5aff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  min-width: 160px;
+}
+
+.actions button:hover {
+  background: #7a7aff;
+  transform: translateY(-2px);
+}
+
+.actions button:active {
+  transform: translateY(0);
+}
